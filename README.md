@@ -1,10 +1,6 @@
-# This project is not actively maintained
+# This is currently only an personal used fork  ...
 
-Issues and pull requests on this repository may not be acted on in a timely
-manner, or at all.  You are of course welcome to use it anyway. You are even
-more welcome to fork it and maintain the results.
-
-![Unmaintained](https://nym.se/img/unmaintained.jpg)
+If you had pull request i'm happy to test/implement it, as i had time
 
 unifi-api
 =========
