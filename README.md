@@ -21,7 +21,7 @@ The following small utilities are bundled with the API:
 
 ### unifi-ls-clients
 
-Lists the currently active clients on the networks. Takes parameters for
+Lists the currently active (wireless) clients on the networks. Takes parameters for
 controller, username, password, controller version and site ID (UniFi >= 3.x)
 
 ```

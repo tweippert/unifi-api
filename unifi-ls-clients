@@ -17,7 +17,7 @@ c = Controller(args.controller, args.username, args.password, args.port, args.ve
 
 aps = c.get_aps()
 ap_names = dict([(ap['mac'], ap.get('name')) for ap in aps])
-clients = c.get_clients()
+clients = filter(lambda x: not x['is_wired'], c.get_clients())
 clients.sort(key=lambda x: -x['rssi'])
 
 FORMAT = '%-16s  %18s  %-12s  %4s  %4s  %3s  %3s'
